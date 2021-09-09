@@ -9,51 +9,108 @@ import happinessImage from "../../static/images/Make-happiness.svg";
 
 const AboutPage = () => (
     <Layout>
-        <SEO title="About"/>
-
-        <div className={"page-header"}>
-            <h2>What’s HiStaff?</h2>
-            <p>HiStaff is a service that boost the staff’s productivity by offering new ways<br />to increase employee motivation and happiness.</p>
-        </div>
-
+        <SEO title="About" />
         <div className={"container"}>
             <div className={"targets"}>
                 <div className={"title"}>
-                    <h2>Our Targets</h2>
+                    <h2>My Resume</h2>
+                    <p>Results driven and diligent Full Stack Developer with 6+ years experience in software design, development, testing and integration.
+                        Currently designs and develops Microservices using Spring Boot framework module, following domain driven design. In previous roles, performed
+                        system implementation and software testing to support technical services consulting tasks.
+                    </p>
+
                 </div>
 
                 <div className={"row"}>
                     <div className={"col-6"}>
                         <div className={"item"}>
-                            <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
+                            <h3>Work Experience</h3>
+                            <ul>
+                                <li> ***BOOZ ALLEN HAMILTON*** </li>
+                                <li>Oct. 2019 - Present</li><br />
+                                <li>FULL STACK DEVELOPER</li>
+                                <br />
+                                <ul>
+                                    <li>Design, develop, deploy RESTFUL APIs using Java Spring Boot to provide interface for nuclear effects capabilities to allow end users to submit parameters to the service, routing them to correct capability and returning appropiate results. </li>
+                                    <br />
+                                    <li>Proficient using MongoDB database concepts such as locking, transactions, indexes, sharding, replication, schema design, log rotation</li>
+                                </ul>
+                            </ul>
+                            <ul>
+                                <br />
+                                <li>Sept. 2019 - Oct. 2019</li><br />
+                                <li>MODERN SOFTWARE TECHNICAL TRAINEE</li>
+                                <br />
+                                <ul>
+                                    <li>Worked with project team member to design and develop backend microservices using Java that stores and queries data from embedded HyperSQLDB and used Kubernetes tool to scale web application to fully implement load-balancing functionality</li>
+                                    
+                                    <br /><li>Created a RESTful web service/API using Java and Spring Boot framework module that provides create, read, update, and delete operations for requests made from the ReactJS front end application</li>
+                                </ul>
+                            </ul>
+
+                            <ul>
+                                <br />
+                                <li> ***TOPDOWN SYSTEMS CORPORATION*** </li>
+                                <li>April 2016 - Sept. 2019</li><br />
+                                <li>TECHNICAL SERVICES CONSULTANT</li>
+                                <br />
+                                <ul>
+                                <li>Plan, implement, develop, and test installation and upgrades of our on-premises Customer Communications Management (CCM) software on web, print and application servers</li><br/>
+                                    <li>Troubleshoot remote and on-site application issues using packet sniffing/analysis tools such as Wireshark, Fiddler and BlackBox</li>
+                                    <br />
+                     
+                                </ul>
+                            </ul>
                         </div>
                     </div>
 
                     <div className={"col-6"}>
                         <div className={"item"}>
-                            <img alt={"Event"} src={eventImage}/>
-                            <h3>Manage Events</h3>
-                            <p>How to hold internal events is one of the problems of companies. HiStaff by presenting new ideas allows event management to be done as easily as possible.</p>
+                            <h3>Education</h3>
+                            <ul>
+                                <li>2020 - 2022</li><br />
+                                <li>JOHNS HOPKINS UNIVERSITY</li>
+                                <ul>
+                                    <li>M.S. Computer Science, focus Data Science and Cloud Computing</li>
+                                </ul>
+                                <br />
+                                <li>2011 - 2016</li>
+                                <li>UNIVERSITY OF MARYLAND, BALTIMORE COUNTY</li>
+                                <ul>
+                                    <li>M.S. Computer Science, focus Data Science and Cloud Computing</li>
+                                </ul>
+                                <br />
+                            </ul>
                         </div>
                     </div>
                 </div>
 
                 <div className={"row"}>
-                    <div className={"col-6"}>
+                <div className={"col-6"}>
                         <div className={"item"}>
-                            <img alt={"Productivity"} src={ProductivityImage}/>
-                            <h3>Raise productivity</h3>
-                            <p>Many factors are affecting the staff's productivity in the workplace, the relationship between manager and staff and environmental factors are the main factors, therefore we will focus on these two factors in achieving our goal. Ultimately, increasing employee's productivity results in increasing the quality of products and services that are going to be provided.</p>
+                            <h3>Technical Skills</h3>
+                            <ul>
+                                <li>Programming Languages: Java, SQL, C++, HTML/CSS, Python, Java Script, Scala, React</li><br />
+                                <li>Frameworks: Spring Framework, Spring Boot Framework module, Node.js, React, React Native</li><br />
+                                <li>Software/COTS: Eclipse IDE, Apache Tomcat Software Foundation, Github, Postman, Maven, Gradle, Kubernetes, Jenkins, IntelliJ, Docker, Teiid - Java software for data virtualization</li>
+                                <br />
+                                <li>Databases: MongoDB, SQL Server, Oracle, Microsoft Access, Sybase, Couchbase</li><br />
+                                <li>Operating Systems: WindowsOS, Microsoft Windows Server 2003 – 2016, MacOS, Linux</li><br />
+                                <li>Networking Tools: ProcMon, Fiddler, Wireshark, BlackBox</li> <br />
+                                <li>Concepts/Methodologies: On-Premise Solutions, Containerization, Microservices, Cloud Computing, Multi-threading/Multi-processing, Failover vs. Clustering, Log Rotation, STIG compliance</li><br />            
+                                <br />
+                            </ul>
                         </div>
                     </div>
 
                     <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Happiness"} src={happinessImage}/>
-                            <h3>Boost motivation and happiness</h3>
-                            <p>It is Obvious that a happy employee will make the environment happy and energetic! We are constantly attempting to provide solutions for maximizing employee’s motivation and joy.</p>
+                    <div className={"item"}>
+                            <h3>Activies/Certifications</h3>
+                            <ul>
+                                <li>Certified AWS Solutions Architect – Associate, May 2021</li><br />
+                                <li>Top Wyzant STEM Tutor, Specializing in Math and Computer Science Tutoring</li><br />
+                                <br />
+                            </ul>
                         </div>
                     </div>
                 </div>
